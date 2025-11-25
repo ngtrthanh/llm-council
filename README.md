@@ -59,12 +59,20 @@ CHAIRMAN_MODEL = "google/gemini-3-pro-preview"
 
 ## Running the Application
 
-**Option 1: Use the start script**
+**Option 1: Docker Compose (Recommended)**
+```bash
+docker compose up
+```
+Then open http://localhost:5173 in your browser.
+
+See [DOCKER.md](DOCKER.md) for detailed Docker instructions.
+
+**Option 2: Use the start script**
 ```bash
 ./start.sh
 ```
 
-**Option 2: Run manually**
+**Option 3: Run manually**
 
 Terminal 1 (Backend):
 ```bash
